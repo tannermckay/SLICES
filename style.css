@@ -1,0 +1,46 @@
+
+body {
+    font-family: sans-serif;
+    background-image: url('IMG_9564.jpeg');
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+header {
+    background: white;
+    padding: 10px;
+    text-align: center;
+}
+.logo {
+    width: 120px;
+    display: block;
+    margin: 0 auto;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+nav ul li {
+    margin: 0 15px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #d22;
+    font-weight: bold;
+}
+main {
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    margin: 20px;
+}
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #fff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
